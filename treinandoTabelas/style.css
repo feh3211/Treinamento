@@ -1,8 +1,24 @@
 table, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
+    background-color: rgb(204, 81, 204);
+    text-align: center;
+    width: 850px;
+    height: 35px;
 }
 
 .tituloTabela{
-background-color: rgb(252, 0, 0);
+background-color: pink  
 } 
+
+.preço{
+    background-color: rgb(163, 163, 163);
+}
+
+button{
+    background-color: pink;
+    color: purple;
+}
+
+td{
+}
