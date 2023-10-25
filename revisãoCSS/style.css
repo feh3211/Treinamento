@@ -1,0 +1,30 @@
+* {
+  margin: auto;
+
+}
+
+body {
+  background-color: aqua;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  background-color: #b3e9f3;
+}
+
+h1 {
+  background-color: #6590d1;
+  text-shadow: 10px 10px #48789f;
+}
+
+footer {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 320px) {
+  
+}

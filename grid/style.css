@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+body {
+}
+#container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 5vh 70vh 20vh;
+}
+
+header {
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+main {
+  background-color: red;
+}
+
+footer {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+aside {
+  background-color: palevioletred;
+}

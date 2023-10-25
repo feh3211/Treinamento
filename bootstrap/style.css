@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 5vh 70vh 20vh;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: aqua;
+}
+
+main {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: aquamarine;
+}
+
+img {
+  width: 40px;
+  height: 40rem;
+}
+section {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: blueviolet;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: blue;
+}
