@@ -1,21 +1,36 @@
-table, tr, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: rgb(204, 81, 204);
-    text-align: center;
-    width: 850px;
-    height: 35px;
+body {
+  text-align: center;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(204, 81, 204);
+  text-align: center;
+  width: 850px;
+  height: 35px;
 }
 
-.tituloTabela{
-background-color: pink  
-} 
-
-.preço{
-    background-color: rgb(163, 163, 163);
+.tituloTabela {
+  background-color: pink;
 }
 
+<<<<<<< HEAD
 button{
     background-color: pink;
     color: purple;
 }
+=======
+.preço {
+  background-color: rgb(163, 163, 163);
+}
+
+button {
+  background-color: pink;
+  color: purple;
+  cursor: pointer;
+  width: 85px;
+  height: 30px;
+}
+>>>>>>> main2
